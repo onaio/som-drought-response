@@ -1,0 +1,467 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Awdal",
+        "region_id": "R1720051",
+        "district": "Zeylac",
+        "district_id": "R1720142",
+        "planned_uct": "34080",
+        "planned_ct": "19080",
+        "total_planned": "53160",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Awdal",
+        "region_id": "R1720051",
+        "district": "Borama",
+        "district_id": "R1720082",
+        "planned_uct": "19200",
+        "planned_ct": "6000",
+        "total_planned": "25200",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Awdal",
+        "region_id": "R1720051",
+        "district": "Baki",
+        "district_id": "R1720075",
+        "planned_uct": "21600",
+        "planned_ct": "0",
+        "total_planned": "21600",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Woqooyi Galbeed",
+        "region_id": "R1720068",
+        "district": "Gabiley",
+        "district_id": "R1720105",
+        "planned_uct": "0",
+        "planned_ct": "8500",
+        "total_planned": "8500",
+        "partner": "ADRA"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Woqooyi Galbeed",
+        "region_id": "R1720068",
+        "district": "Hargeisa",
+        "district_id": "R1720110",
+        "planned_uct": "0",
+        "planned_ct": "1080",
+        "total_planned": "1080",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Togdheer",
+        "region_id": "R1720067",
+        "district": "Odweine",
+        "district_id": "R1720126",
+        "planned_uct": "0",
+        "planned_ct": "24696",
+        "total_planned": "24696",
+        "partner": "WFP"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Sanaag",
+        "region_id": "R1720065",
+        "district": "El Afwein",
+        "district_id": "R1720095",
+        "planned_uct": "4500",
+        "planned_ct": "20580",
+        "total_planned": "25080",
+        "partner": "WFP WC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Sanaag",
+        "region_id": "R1720065",
+        "district": "Erigavo",
+        "district_id": "R1720099",
+        "planned_uct": "4980",
+        "planned_ct": "0",
+        "total_planned": "4980",
+        "partner": "NRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Sanaag",
+        "region_id": "R1720065",
+        "district": "Badhan",
+        "district_id": "R1720121",
+        "planned_uct": "105924",
+        "planned_ct": "0",
+        "total_planned": "105924",
+        "partner": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bari",
+        "region_id": "R1720054",
+        "district": "Bosaso",
+        "district_id": "R1720083",
+        "planned_uct": "5832",
+        "planned_ct": "0",
+        "total_planned": "5832",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bari",
+        "region_id": "R1720054",
+        "district": "Kandala",
+        "district_id": "R1720127",
+        "planned_uct": "900",
+        "planned_ct": "1200",
+        "total_planned": "2100",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bari",
+        "region_id": "R1720054",
+        "district": "Iskushban",
+        "district_id": "R1720112",
+        "planned_uct": "61476",
+        "planned_ct": "7680",
+        "total_planned": "69156",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bari",
+        "region_id": "R1720054",
+        "district": "Gardo",
+        "district_id": "R1720129",
+        "planned_uct": "161664",
+        "planned_ct": "8400",
+        "total_planned": "170064",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Nugaal",
+        "region_id": "R1720064",
+        "district": "Garowe",
+        "district_id": "R1720086",
+        "planned_uct": "2400",
+        "planned_ct": "8340",
+        "total_planned": "10740",
+        "partner": "SC ADRA"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Sool",
+        "region_id": "R1720066",
+        "district": "Lasanod",
+        "district_id": "R1720120",
+        "planned_uct": "0",
+        "planned_ct": "23880",
+        "total_planned": "23880",
+        "partner": "ADRA"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Nugaal",
+        "region_id": "R1720064",
+        "district": "Eyl",
+        "district_id": "R1720104",
+        "planned_uct": "22800",
+        "planned_ct": "3942",
+        "total_planned": "26742",
+        "partner": "ACF"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Mudug",
+        "region_id": "R1720063",
+        "district": "Galkacyo",
+        "district_id": "R1720107",
+        "planned_uct": "537048",
+        "planned_ct": "1054602",
+        "total_planned": "1591650",
+        "partner": "WFP IRC CESVI ADRA"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Mudug",
+        "region_id": "R1720063",
+        "district": "Jariban",
+        "district_id": "R1720115",
+        "planned_uct": "686160",
+        "planned_ct": "1033776",
+        "total_planned": "1719936",
+        "partner": "IRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Galgaduud",
+        "region_id": "R1720056",
+        "district": "Adado",
+        "district_id": "R1720091",
+        "planned_uct": "0",
+        "planned_ct": "11844",
+        "total_planned": "11844",
+        "partner": "ICRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Galgadud",
+        "region_id": "R1720056",
+        "district": "Abudwaq",
+        "district_id": "R1720090",
+        "planned_uct": "0",
+        "planned_ct": "33810",
+        "total_planned": "33810",
+        "partner": "ICRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Galgadud",
+        "region_id": "R1720056",
+        "district": "Dusa Mareb",
+        "district_id": "R1720100",
+        "planned_uct": "0",
+        "planned_ct": "60378",
+        "total_planned": "60378",
+        "partner": "IRC ICRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Galgadud",
+        "region_id": "R1720056",
+        "district": "El Bur",
+        "district_id": "R1720097",
+        "planned_uct": "0",
+        "planned_ct": "76944",
+        "total_planned": "76944",
+        "partner": "ICRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Galgadud",
+        "region_id": "R1720056",
+        "district": "El Der",
+        "district_id": "R1720098",
+        "planned_uct": "0",
+        "planned_ct": "1057752",
+        "total_planned": "1057752",
+        "partner": "ICRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Mudug",
+        "region_id": "R1720063",
+        "district": "Hobyo",
+        "district_id": "R1720111",
+        "planned_uct": "684804",
+        "planned_ct": "1057752",
+        "total_planned": "1742556",
+        "partner": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Hiran",
+        "region_id": "R1720058",
+        "district": "Mataaban",
+        "district_id": "R1720079",
+        "planned_uct": "37920",
+        "planned_ct": "20298",
+        "total_planned": "58218",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Hiran",
+        "region_id": "R1720058",
+        "district": "Belet weyne",
+        "district_id": "R1720079",
+        "planned_uct": "96600",
+        "planned_ct": "107874",
+        "total_planned": "204474",
+        "partner": " SC ICRC CESVI Diakonie"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Hiran",
+        "region_id": "R1720058",
+        "district": "Bulo Burti",
+        "district_id": "R1720085",
+        "planned_uct": "3600",
+        "planned_ct": "0",
+        "total_planned": "3600",
+        "partner": "SC Diakonie"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Hiran",
+        "region_id": "R1720058",
+        "district": "Jalalasqi",
+        "district_id": "R1720113",
+        "planned_uct": "3600",
+        "planned_ct": "0",
+        "total_planned": "3600",
+        "partner": "SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Middle Shabelle",
+        "region_id": "R1720062",
+        "district": "Balcad",
+        "district_id": "R1720076",
+        "planned_uct": "0",
+        "planned_ct": "7700",
+        "total_planned": "7700",
+        "partner": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Lower Shabelle",
+        "region_id": "R1720060",
+        "district": "Wanla Weyne",
+        "district_id": "R1720138",
+        "planned_uct": "0",
+        "planned_ct": "80430",
+        "total_planned": "80430",
+        "partner": "ICRC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bakool",
+        "region_id": "R1720052",
+        "district": "Hudur",
+        "district_id": "R1720141",
+        "planned_uct": "21780",
+        "planned_ct": "1200",
+        "total_planned": "22980",
+        "partner": "ACF SC"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bay",
+        "region_id": "R1720055",
+        "district": "Baidoa",
+        "district_id": "R1720074",
+        "planned_uct": "88392",
+        "planned_ct": "2784",
+        "total_planned": "91176",
+        "partner": "NRC ACTED SC COOPI"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "region": "Bay",
+        "region_id": "R1720055",
+        "district": "Bur Hakaba",
+        "district_id": "R1720089",
+        "planned_uct": "51840",
+        "planned_ct": "0",
+        "total_planned": "51840",
+        "partner": "ACTED"
+      },
+      "geometry": null
+    }
+  ]
+}

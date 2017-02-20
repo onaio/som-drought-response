@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'>
+</div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoib25hIiwiYSI6IlVYbkdyclkifQ.0Bz-QOOXZZK01dq4MuMImQ';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v9',
+    center: [-99.9, 41.5],
+    zoom: 1
+});
+
+// Join local JSON data with vector tile geometry
+// USA unemplyoment rate in 2009
+// Source https://data.bls.gov/timeseries/LNS14000000
+var maxValue = 13;
+var data = [
+    {"osm_id": "R1720082", "unemployment": 13.17},
+    {"osm_id": "R1720122", "unemployment": 9.5},
+    {"osm_id": "R1720142", "unemployment": 8},
+    {"osm_id": "R1720136", "unemployment": 7},
+    {"osm_id": "R1720137", "unemployment": 8},
+    {"osm_id": "R1720141", "unemployment": 9},
+    {"osm_id": "R1720077", "unemployment": 4},
+    {"osm_id": "R1720083", "unemployment": 8}
+];
+
+// Get the vector geometries to join
+// US Census Data Source
+// https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html
+var mapId = "ona.6gl2shzi";
+var layerName = "som_adm_2-0j5bly";
+var vtMatchProp = "osm_id";
+var dataMatchProp = "osm_id";
+var dataStyleProp = "unemployment";
+
+map.on('load', function() {
+
+    // Add source for state polygons hosted on Mapbox
+    map.addSource("states", {
+        type: "vector",
+        url: "mapbox://" + mapId
+    });
+
+    // First value is the default, used where the is no data
+    var stops = [["0", "rgba(0,0,0,0)"]];
+
+    // Calculate color for each state based on the unemployment rate
+    data.forEach(function(row) {
+        var green = ((row[dataStyleProp] / maxValue) * 255);
+        var color = "rgba(" + 0 + ", " + green + ", " + 0 + ", 1)";
+        stops.push([row[dataMatchProp], color]);
+    });
+
+    // Add layer from the vector tile source with data-driven style
+    map.addLayer({
+        "id": "states-join",
+        "type": "fill",
+        "source": "states",
+        "source-layer": layerName,
+        "paint": {
+            "fill-opacity": 0.5,
+            "fill-outline-color": "#FFFFFF",
+            "fill-color": {
+                "property": vtMatchProp,
+                "type": "categorical",
+                "stops": stops
+            }
+        }
+    }, 'waterway-label');
+});
+</script>
+
+</body>
+</html>
